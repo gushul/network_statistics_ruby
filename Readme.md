@@ -102,11 +102,18 @@ Make sure you have Make installed. If not, install it based on your operating sy
 The following Makefile commands are available:
 
 `all` (default): The default target is run, so running make alone is equivalent to make run.
+
 `build`: Builds the Docker image based on the Dockerfile.
+
 `run`: Builds the Docker image (if not already built) and runs the Docker container in detached mode.
+
 `stop`: Stops and removes the running Docker container.
+
 `test`: Runs the tests using RSpec.
+
 `clean`: Cleans the SQLite database file.
+
 `clean-all`: Cleans the SQLite database file, stops and removes the Docker container.
+
 To use the Makefile commands, open a terminal and navigate to the project directory. Then, you can run the commands by entering make <command>.
 
